@@ -1,5 +1,5 @@
 # Learning Python
-Created this repo for learning the use of git and GitHub together with the german Udemy course.
+Created this repo for learning the use of git and GitHub together with the german Udemy course "Python Bootcamp".
 
 I am using the Python Anaconda Package and for the beginning mostly the notebook feature.
 
