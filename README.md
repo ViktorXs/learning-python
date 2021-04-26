@@ -4,6 +4,9 @@ Created this repo for learning the use of git and GitHub together with the germa
 I am using the Python Anaconda Package and for the beginning mostly the notebook feature.
 
 ## Changelog
+26.04.2021
+- Changed folder structure for better overview.
+
 23.04.2021
 - Finished final exercises chapter "Python Grundlagen"
 - Added final exercises files for "Python Grundlagen" Chapter
