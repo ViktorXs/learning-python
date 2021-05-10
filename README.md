@@ -5,6 +5,7 @@ I am using the Python Anaconda Package and for the beginning mostly the notebook
 
 ## Changelog
 10.05.2021
+- Optimized .gitattributes for simple LFS tracking.
 - Resolved Problem with LFS.
 - Finished Lesson: "Funktionen"
 - Finished final exercises chapter "Funktionen" 
