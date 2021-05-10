@@ -9,6 +9,10 @@ I am using the Python Anaconda Package and for the beginning mostly the notebook
 - Finished Lesson: "Funktionen"
 - Finished final exercises chapter "Funktionen" 
 
+03.05.2021
+- Finished Chapter: Kontrollstrukturen.
+- Made some overall improvements in files and folder structure.
+
 26.04.2021
 - Changed folder structure for better overview.
 
