@@ -3,26 +3,29 @@ Created this repo for learning the use of git and GitHub together with the germa
 
 I am using the Python Anaconda Package and for the beginning mostly the notebook feature.
 
+Update:
+I decided to note down finished Lessons and major updates, instead of every chapter from the lessons in the changelog below.
+
 ## Changelog
+12.05.2021
+- Optimized folder structure and file naming convention.
+- Merged with main branch for the sake of continuous integration.
+
 10.05.2021
 - Optimized .gitattributes for simple LFS tracking.
 - Resolved Problem with LFS.
-- Finished Lesson: "Funktionen"
-- Finished final exercises chapter "Funktionen" 
+- Finished lesson "Funktionen".
 
 03.05.2021
-- Finished Chapter: Kontrollstrukturen.
 - Made some overall improvements in files and folder structure.
 
 26.04.2021
 - Changed folder structure for better overview.
 
 23.04.2021
-- Finished final exercises chapter "Python Grundlagen"
-- Added final exercises files for "Python Grundlagen" Chapter
+- Finished lesson "Python Grundlagen".
 - Filled in some more informations into this Readme.
-- Removed and rearranged files in working directory
+- Removed and rearranged files in working directory.
 
 21.04.2021
-- Finished subchapter "Umwandeln Teil 1"
-- Finished "Umwandeln Teil 2"
+- Begin of work with this repository.
