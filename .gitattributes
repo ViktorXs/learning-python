@@ -1,5 +1,1 @@
-names.csv filter=lfs diff=lfs merge=lfs -text
-data/names.csv filter=lfs diff=lfs merge=lfs -text
-notebook-files/data/names.csv filter=lfs diff=lfs merge=lfs -text
-notebook-files/daten/names.csv filter=lfs diff=lfs merge=lfs -text
-
+*.csv filter=lfs diff=lfs merge=lfs -text
