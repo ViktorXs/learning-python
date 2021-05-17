@@ -7,6 +7,10 @@ Update:
 I decided to note down finished Lessons and major updates, instead of every chapter from the lessons in the changelog below.
 
 ## Changelog
+17.05.2021
+- Started Chapter "Objektorientierung"
+- Finished Chapter "Listen in Python"
+
 12.05.2021
 - Optimized folder structure and file naming convention.
 - Merged with main branch for the sake of continuous integration.
