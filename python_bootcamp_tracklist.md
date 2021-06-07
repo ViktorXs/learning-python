@@ -154,9 +154,8 @@
       Optionale Musterlösung
 
 - Kapitel 9: Module in Python
-    ...Code aus separater Datei laden
-
-    Versch. import-Möglichkeiten für Module
+    Code aus separater Datei laden
+    ...Versch. import-Möglichkeiten für Module
     Module in einem Ordner erstellen
       + Quiz 11: Module
     Merkblatt: Module in Python
