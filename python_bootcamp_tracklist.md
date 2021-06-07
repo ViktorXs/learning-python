@@ -55,7 +55,6 @@
     elif
 
   # 28.04.2021 Mittwoch #
-
 - Kapitel 5: Kontrollstrukturen Teil 2
     Die while-Schleife
     Die for-Schleife
@@ -96,9 +95,8 @@
     * Übungsblatt: Funktionen !! Irgendwann wiederholen!
       Optionale Musterlösung
 
-
-- Kapitel 7: Listen in Python (Arrays)
   # 10.05.2021 Montag #
+- Kapitel 7: Listen in Python (Arrays)
     Arbeiten mit Listen
     List Slicing
     + Quiz 8: List Slicing
@@ -156,7 +154,8 @@
       Optionale Musterlösung
 
 - Kapitel 9: Module in Python
-    Code aus separater Datei laden
+    ...Code aus separater Datei laden
+
     Versch. import-Möglichkeiten für Module
     Module in einem Ordner erstellen
       + Quiz 11: Module
