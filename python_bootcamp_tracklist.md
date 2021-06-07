@@ -155,12 +155,13 @@
 
 - Kapitel 9: Module in Python
     Code aus separater Datei laden
-    ...Versch. import-Möglichkeiten für Module
+    Versch. import-Möglichkeiten für Module
     Module in einem Ordner erstellen
-      + Quiz 11: M odule
+    + Quiz 11: Module
     Merkblatt: Module in Python
-      Optionale Musterlösung Quiz
+    Optionale Musterlösung Quiz
     Beispiel für ein Modul
+
 - Kapitel 10: Crawler
     Exkurs: Was ist html überhaupt?
     html Code holen
