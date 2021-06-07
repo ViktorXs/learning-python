@@ -157,7 +157,7 @@
     Code aus separater Datei laden
     ...Versch. import-Möglichkeiten für Module
     Module in einem Ordner erstellen
-      + Quiz 11: Module
+      + Quiz 11: M odule
     Merkblatt: Module in Python
       Optionale Musterlösung Quiz
     Beispiel für ein Modul
