@@ -1,4 +1,4 @@
-# My crazy file
+# Der Wilde Westen
 
 import typing
 import math
