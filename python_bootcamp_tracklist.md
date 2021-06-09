@@ -165,10 +165,10 @@
 - Kapitel 10: Crawler
     Exkurs: Was ist html überhaupt?
     html Code holen
-    ...beautifulsoup
+    beautifulsoup
     Exkurs: css-selectors 1/2
     Exkurs: css-selectors 2/2
-    Elemente finden 1/2
+    ...Elemente finden 1/2
     Elemente finden 2/2
     Elemente finden - urllib
     * Aufgabe: Mehrere Seiten mit Cralwer einlesen
