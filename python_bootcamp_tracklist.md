@@ -164,7 +164,7 @@
 
 - Kapitel 10: Crawler
     Exkurs: Was ist html überhaupt?
-    html Code holen
+    ...html Code holen
     beautifulsoup
     Exkurs: css-selectors 1/2
     Exkurs: css-selectors 2/2
