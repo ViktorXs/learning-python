@@ -10,6 +10,10 @@ There will be differencies and varying things in this project, like different na
 Finished things that may have wrong naming conventions etc. I will still keep them as they are and will not change for the sake of keeping track, how well I already progressed and learned python.
 
 # Changelog
+09.06.2021
+- Added tags on commits, where branches were merged with main
+- Removed merged branches
+
 07.05.2021
 - Started Chapter "Module in Python"
 - Added my tracklist in which I always note, how far I got in the course.
