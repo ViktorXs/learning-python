@@ -174,7 +174,7 @@
   # 11.06.2021 Freitag #
     Elemente finden 2/2
     Elemente finden - urllib
-    ...* Aufgabe: Mehrere Seiten mit Cralwer einlesen
+    ...* Aufgabe: Mehrere Seiten mit Crawler einlesen
       Optionale Musterlösung
     Hinweis: Encoding, Schreiben einer Datei
     * Aufgabe: Ergebnisse als CSV speichern
