@@ -183,8 +183,8 @@
     * Aufgabe: Ergebnisse als CSV speichern
       Optionale Musterlösung
     CSV-Datei korrekt mit Excel öffnen
-    ...Python Wissen - Generators
-    Generatoren in crawler einbauen
-    Crawler zu Programm 1/2: PyCharm install.
+    Python Wissen - Generators
+    Generatoren in Crawler einbauen
+    ...Crawler zu Programm 1/2: PyCharm install.
     Crawler zu Programm 2/2
 - Kapitel 11: Exceptions

@@ -12,6 +12,14 @@ An den HTML-Code der Seite rankommen und herunterladen
 Daten aus HTML-Code extrahieren
 ! In Anaconda ist das Modul schon installiert. Ansonsten manuell installieren.
 
+- csv Modul: https://docs.python.org/3/library/csv.html#csv.writer
+Ergebnisse in eine CSV Datei speichern.
+
+- Generator verwenden (in for-Schleife mit Funktion "yield") um "on the fly" Daten zu schreiben.
+
+- Mit Programm "PyCharm" aus dem Python Code ein funktionierendes Programm aus dem Crawler generieren.
+(IDE = Integrated Development Environment. Vereinfacht die Entwicklung von Programmen.)
+
 # Wofür ein Crawler?
 - Informationsbeschaffung
 - Aktuelle Aktienkurse
