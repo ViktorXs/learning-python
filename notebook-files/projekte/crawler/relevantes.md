@@ -17,8 +17,33 @@ Ergebnisse in eine CSV Datei speichern.
 
 - Generator verwenden (in for-Schleife mit Funktion "yield") um "on the fly" Daten zu schreiben.
 
-- Mit Programm "PyCharm" aus dem Python Code ein funktionierendes Programm aus dem Crawler generieren.
+## Pycharm
+Mit dem Programm "PyCharm" aus dem Python Code ein funktionierendes Programm aus dem Crawler generieren.
 (IDE = Integrated Development Environment. Vereinfacht die Entwicklung von Programmen.)
+
+### Beispielprojekt zum Kurs:
+- Bei Projekterstellung in PyCharm die Umgebung wechseln von "New environment using ..." zu "Previously configured interpreter" wechseln und die Anaconda Umgebung "Conda" und die python.exe auswählen!
+
+- Python Datei im Projektordner erstellen: crawler.py
+
+- Neuen Modul ("Python Package") erstellen: "crawler" (Es wird eine __init__.py darin erstellt). 
+
+- Die einzelnen Klassen aus dem jupyter notebook in PyCharm als eigene Python-Dateien im "crawler" Modulordner erstellen und benennen, wie die Klassen heißen.
+
+- Dateien, die im selben Modulordner sind in der Datei, die die andere Datei benötigen importieren:
+Z.B. "from .Klasse import Klasse" (. <- Punkt steht dafür, dass die Datei im selben Modul liegt)
+
+- In der __init__.py Datei diese Dateien im Modul eintragen: 
+__all__ = ["Klasse1", "Klasse2"]
+Sowie: 
+from .Klasse1 import Klasse1
+from .Klasse2 import Klasse2
+
+- In der crawler.py Datei im Hauptverzeichnis das crawler-Modul importieren: Z.B:
+    import crawler
+    fetcher = crawler.ArticleFetcher()
+    for element in fetcher.fetch():
+        print(element.emoji + " - " + element.title)
 
 # Wofür ein Crawler?
 - Informationsbeschaffung
