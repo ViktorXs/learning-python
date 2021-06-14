@@ -174,10 +174,10 @@
   # 11.06.2021 Freitag #
     Elemente finden 2/2
     Elemente finden - urllib
-    ...* Aufgabe: Mehrere Seiten mit Crawler einlesen
+    * Aufgabe: Mehrere Seiten mit Crawler einlesen
       Optionale Musterlösung
-    Hinweis: Encoding, Schreiben einer Datei
-    * Aufgabe: Ergebnisse als CSV speichern
+    ...Hinweis: Encoding, Schreiben einer Datei
+    ...* Aufgabe: Ergebnisse als CSV speichern
       Optionale Musterlösung
     CSV-Datei korrekt mit Excel öffnen
     Python Wissen - Generators

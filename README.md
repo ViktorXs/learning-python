@@ -11,6 +11,7 @@ Finished things that may have wrong naming conventions etc. I will still keep th
 
 # Changelog
 09.06.2021
+- Started Chapter "Crawler"
 - Added tags on commits, where branches were merged with main
 - Removed merged branches
 
