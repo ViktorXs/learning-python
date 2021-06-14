@@ -176,10 +176,10 @@
     Elemente finden - urllib
     * Aufgabe: Mehrere Seiten mit Crawler einlesen
       Optionale Musterlösung
-    ...Hinweis: Encoding, Schreiben einer Datei
-    ...* Aufgabe: Ergebnisse als CSV speichern
+    Hinweis: Encoding, Schreiben einer Datei
+    * Aufgabe: Ergebnisse als CSV speichern
       Optionale Musterlösung
-    CSV-Datei korrekt mit Excel öffnen
+    ...CSV-Datei korrekt mit Excel öffnen
     Python Wissen - Generators
     Generatoren in crawler einbauen
     Crawler zu Programm 1/2: PyCharm install.
