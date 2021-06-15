@@ -195,11 +195,11 @@
     Das finally - Konstrukt
     Das with - Konstrukt
     Merkblatt: Exceptions
-    ...* Übungsblatt: Exceptions
-      Optionale Musterlösung
+    * Übungsblatt: Exceptions
+    Optionale Musterlösung
 
 - Kapitel 12: Datenstrukturen in python
-    Übersicht, was sind Datenstrukturen?
+    ...Übersicht, was sind Datenstrukturen?
     Die Datenstruktur set
     * Aufgabe: Sets
       Quiz: Teste deine Lösung: Sets

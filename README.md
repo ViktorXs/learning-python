@@ -10,6 +10,11 @@ There will be differencies and varying things in this project, like different na
 Finished things that may have wrong naming conventions etc. I will still keep them as they are and will not change for the sake of keeping track, how well I already progressed and learned python.
 
 # Changelog
+15.06.2021
+- Finished Chapter "Crawler"
+- Major changes in directory structure
+- Created projects folder for PyCharm exercises
+
 14.06.2021
 - Started Chapter "Exceptions"
 - Finished Chapter "Crawler"
