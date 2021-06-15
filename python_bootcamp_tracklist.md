@@ -199,8 +199,8 @@
     Optionale Musterlösung
 
 - Kapitel 12: Datenstrukturen in python
-    ...Übersicht, was sind Datenstrukturen?
-    Die Datenstruktur set
+    Übersicht, was sind Datenstrukturen?
+    ...Die Datenstruktur set
     * Aufgabe: Sets
       Quiz: Teste deine Lösung: Sets
       Optionale Musterlösung Sets
