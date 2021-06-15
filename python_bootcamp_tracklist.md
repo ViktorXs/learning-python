@@ -187,5 +187,28 @@
     Generatoren in Crawler einbauen
     Crawler zu Programm 1/2: PyCharm install.
     Crawler zu Programm 2/2
+
+  # 15.06.2021 Dienstag #
 - Kapitel 11: Exceptions
-  ...
+    ... Exceptions
+    Mehrere exceptions und Eigene erst.
+    Das finally - Konstrukt
+    Das with - Konstrukt
+    Merkblatt: Exceptions
+    * Übungsblatt: Exceptions
+      Optionale Musterlösung
+
+- Kapitel 12: Datenstrukturen in python
+    Übersicht, was sind Datenstrukturen?
+    Die Datenstruktur set
+    * Aufgabe: Sets
+      Quiz: Teste deine Lösung: Sets
+      Optionale Musterlösung Sets
+    Quiz: Datenstrukturen
+      Optionale Musterlösung Quiz
+    Datenstruktur queue
+    Datenstruktur priority queue
+    Übersicht: Priority Queue
+    Quiz: Teste deine Lösung: Prio. Queue
+    Optionale Musterlösung
+    Weitere Links
