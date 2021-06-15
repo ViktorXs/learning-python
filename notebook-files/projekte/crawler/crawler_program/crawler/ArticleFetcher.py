@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from .CrawledArticle import CrawledArticle
 
+
 class ArticleFetcher():
     def fetch(self):
         url = "http://python.beispiel.programmierenlernen.io/index.php"
