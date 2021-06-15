@@ -191,8 +191,8 @@
   # 15.06.2021 Dienstag #
 - Kapitel 11: Exceptions
     Exceptions
-    ...Mehrere exceptions und Eigene erst.
-    Das finally - Konstrukt
+    Mehrere exceptions und Eigene erst.
+    ...Das finally - Konstrukt
     Das with - Konstrukt
     Merkblatt: Exceptions
     * Übungsblatt: Exceptions
