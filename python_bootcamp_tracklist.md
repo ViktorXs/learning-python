@@ -192,10 +192,10 @@
 - Kapitel 11: Exceptions
     Exceptions
     Mehrere exceptions und Eigene erst.
-    ...Das finally - Konstrukt
+    Das finally - Konstrukt
     Das with - Konstrukt
     Merkblatt: Exceptions
-    * Übungsblatt: Exceptions
+    ...* Übungsblatt: Exceptions
       Optionale Musterlösung
 
 - Kapitel 12: Datenstrukturen in python
