@@ -202,13 +202,13 @@
     Übersicht, was sind Datenstrukturen?
     Die Datenstruktur set
 
-  # 
+  # 16.06.2021 Mittwoch #
     * Aufgabe: Sets
       Quiz: Teste deine Lösung: Sets
-    ...  Optionale Musterlösung Sets
+    Optionale Musterlösung Sets
     Quiz: Datenstrukturen
       Optionale Musterlösung Quiz
-    Datenstruktur queue
+    ... Datenstruktur queue
     Datenstruktur priority queue
     Übersicht: Priority Queue
     Quiz: Teste deine Lösung: Prio. Queue
