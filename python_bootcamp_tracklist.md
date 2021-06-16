@@ -208,9 +208,10 @@
     Optionale Musterlösung Sets
     Quiz: Datenstrukturen
       Optionale Musterlösung Quiz
-    ... Datenstruktur queue
-    Datenstruktur priority queue
-    Übersicht: Priority Queue
-    Quiz: Teste deine Lösung: Prio. Queue
+    Datenstruktur queue
+    ...Datenstruktur priority queue
+    Übersicht: Datenstrukturen
+    + Aufgabe: Priority Queue
+    Quiz: Prüfe deine Lösung: Prio. Queue
     Optionale Musterlösung
-    Weitere Links
+    Weiterführende Links

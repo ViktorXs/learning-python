@@ -1,18 +1,19 @@
 # Queue party
-class TheDongALongEmptier:
+class IsThisAnanas:
     import queue
     entries = queue.Queue()
 
-    entries.put("ding")
-    entries.put("dong")
-    entries.put("wong")
-    entries.put("schlong")
-    entries.put("dabong")
+    entries.put("Was")
+    entries.put("ist")
+    entries.put("das")
+    entries.put("für")
+    entries.put("eine")
+    entries.put("Ananas?")
 
     while not entries.empty():
         el = entries.get()
         print(el)
-    print("Done")
+    print("Eine Gute!")
 
 
-TheDongALongEmptier()
+IsThisAnanas()
