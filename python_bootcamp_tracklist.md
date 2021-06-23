@@ -223,8 +223,8 @@
 - Variable Funktionsparameter übergeben
 - Variable Funktionsparameter (2)
 - Merkblatt: Variable Funktionsparameter
-... - Daten sortieren
-- Lambda Funktionen
+- Daten sortieren
+... - Lambda Funktionen
 - Reguläre Ausdrücke praktisch entwickeln
 - Basics Reguläre ausdrücke
 - * Übungsblatt: Funktionsparameter und Lambda - Funktionen
