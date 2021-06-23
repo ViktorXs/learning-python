@@ -218,8 +218,8 @@
 
 ### Kapitel 13: Funktionsparameter & Sortierung
 - Exkurs: Funktionsparameter benennen
-... - Exkurs: Wie werden Funktionsparameter übergeben
-- Variable Funktionsparameter übergeben
+- Exkurs: Wie werden Funktionsparameter übergeben
+... - Variable Funktionsparameter übergeben
 - Variable Funktionsparameter (2)
 - Merkblatt: Variable Funktionsparameter
 - Daten sortieren
