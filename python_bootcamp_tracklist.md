@@ -224,9 +224,9 @@
 - Variable Funktionsparameter (2)
 - Merkblatt: Variable Funktionsparameter
 - Daten sortieren
-... - Lambda Funktionen
-- Reguläre Ausdrücke praktisch entwickeln
-- Basics Reguläre ausdrücke
+- Lambda Funktionen
+- Reguläre Ausdrücke praktisch entwickeln (Link, quasi Regex)
+... - Basics Reguläre ausdrücke
 - * Übungsblatt: Funktionsparameter und Lambda - Funktionen
 - Optionale Musterlösung
 
