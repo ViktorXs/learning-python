@@ -211,13 +211,13 @@
 ## 21.06.2021 Montag
 - Datenstruktur priority queue
 - Übersicht: Datenstrukturen
-... - * Aufgabe: Priority Queue
+- * Aufgabe: Priority Queue
 - * Quiz 14: Prüfe deine Lösung: Prio. Queue
 - Optionale Musterlösung
 - Weiterführende Links
 
 ### Kapitel 13: Funktionsparameter & Sortierung
-- Exkurs: Funktionsparameter benennen
+... - Exkurs: Funktionsparameter benennen
 - Exkurs: Wie werden Funktionsparameter übergeben
 - Variable Funktionsparameter übergeben
 - Variable Funktionsparameter (2)
