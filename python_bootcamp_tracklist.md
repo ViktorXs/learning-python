@@ -216,13 +216,14 @@
 - Optionale Musterlösung
 - Weiterführende Links
 
+## 23.06.2021 Mittwoch
 ### Kapitel 13: Funktionsparameter & Sortierung
 - Exkurs: Funktionsparameter benennen
 - Exkurs: Wie werden Funktionsparameter übergeben
 - Variable Funktionsparameter übergeben
-... - Variable Funktionsparameter (2)
+- Variable Funktionsparameter (2)
 - Merkblatt: Variable Funktionsparameter
-- Daten sortieren
+... - Daten sortieren
 - Lambda Funktionen
 - Reguläre Ausdrücke praktisch entwickeln
 - Basics Reguläre ausdrücke
