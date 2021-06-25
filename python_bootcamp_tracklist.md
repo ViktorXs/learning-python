@@ -226,8 +226,8 @@
 - Daten sortieren
 - Lambda Funktionen
 - Reguläre Ausdrücke praktisch entwickeln (Link, quasi Regex)
-... - Basics Reguläre ausdrücke
-- * Übungsblatt: Funktionsparameter und Lambda - Funktionen
+- Basics Reguläre ausdrücke
+... - * Übungsblatt: Funktionsparameter und Lambda - Funktionen
 - Optionale Musterlösung
 
 ### Kapitel 14: datetime-Modul / String-Formatierung
