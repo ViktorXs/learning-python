@@ -226,7 +226,7 @@
 - Daten sortieren
 - Lambda Funktionen
 - Reguläre Ausdrücke praktisch entwickeln (Link, quasi Regex)
-- Basics Reguläre ausdrücke
+- Basics Reguläre Ausdrücke
 ... - * Übungsblatt: Funktionsparameter und Lambda - Funktionen
 - Optionale Musterlösung
 
