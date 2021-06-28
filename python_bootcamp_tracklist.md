@@ -225,9 +225,15 @@
 - Merkblatt: Variable Funktionsparameter
 - Daten sortieren
 - Lambda Funktionen
+
+## 25.06.2021 Freitag
 - Reguläre Ausdrücke praktisch entwickeln (Link, quasi Regex)
 - Basics Reguläre Ausdrücke
-... - * Übungsblatt: Funktionsparameter und Lambda - Funktionen
+- * Übungsblatt: Funktionsparameter und Lambda - Funktionen...
+
+## 28.06.2021 Montag
+- * Übungsblatt: Funktionsparameter und Lambda - Funktionen
 - Optionale Musterlösung
 
 ### Kapitel 14: datetime-Modul / String-Formatierung
+... - Mit Datumswerten arbeiten
