@@ -236,5 +236,5 @@
 - Optionale Musterlösung
 
 ### Kapitel 14: datetime-Modul / String-Formatierung
-... - Mit Datumswerten arbeiten
-- Datumsangaben formatieren & Datumswerte einlesen
+- Mit Datumswerten arbeiten
+... - Datumsangaben formatieren & Datumswerte einlesen
