@@ -239,3 +239,4 @@
 - Mit Datumswerten arbeiten
 - Datumsangaben formatieren & Datumswerte einlesen
 - Zeitdifferenzen & Timedelta
+... Quiz: Datumsfunktionen
