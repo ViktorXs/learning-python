@@ -10,30 +10,32 @@ There will be differencies and varying things in this project, like different na
 Finished things that may have wrong naming conventions etc. I will still keep them as they are and will not change for the sake of keeping track, how well I already progressed and learned python.
 
 # Changelog
+28.06.2021
+- Finished sub-chapter "Funktionsparameter & Sortierung" from "Diverses"
+
+23.06.2021
+- Finished chapter "Datenstrukturen"
+
 15.06.2021
-- Finished Chapter "Crawler"
+- Finished chapter "Exceptions"
 - Major changes in directory structure
 - Created projects folder for PyCharm exercises
 
 14.06.2021
-- Started Chapter "Exceptions"
-- Finished Chapter "Crawler"
+- Finished chapter "Crawler"
 - Crawler Program created with PyCharm inside "crawler" project directory.
 
 09.06.2021
-- Started Chapter "Crawler"
 - Added tags on commits, where branches were merged with main
 - Removed merged branches
 
 07.05.2021
-- Started Chapter "Module in Python"
 - Added my tracklist in which I always note, how far I got in the course.
 - Made some optimizations in folder structure and filenames
-- Finished Chapter "Objektorientierung"
+- Finished chapter "Objektorientierung"
 
 17.05.2021
-- Started Chapter "Objektorientierung"
-- Finished Chapter "Listen in Python"
+- Finished chapter "Listen in Python"
 
 12.05.2021
 - Optimized folder structure and file naming convention.
