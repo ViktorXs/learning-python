@@ -236,7 +236,10 @@
 - Optionale Musterlösung
 
 ### Kapitel 14: datetime-Modul / String-Formatierung
+## 30.06.2021 Mittwoch
 - Mit Datumswerten arbeiten
 - Datumsangaben formatieren & Datumswerte einlesen
 - Zeitdifferenzen & Timedelta
-... Quiz: Datumsfunktionen
+- Quiz: Datumsfunktionen
+... Optionale Musterlösung
+- Fortgeschrittene String Funktionen
