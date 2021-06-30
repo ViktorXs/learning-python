@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="394187e6-b606-4898-ba72-30cad85cd885" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../hauptuebungen/10_diverses/.ipynb_checkpoints/05_datumsfunktionen-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../hauptuebungen/10_diverses/.ipynb_checkpoints/05_datumsfunktionen-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hauptuebungen/10_diverses/05_datumsfunktionen.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../hauptuebungen/10_diverses/05_datumsfunktionen.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_bootcamp_tracklist.md" beforeDir="false" afterPath="$PROJECT_DIR$/../python_bootcamp_tracklist.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
       <recent name="C:\Users\PC2020\Arbeitsverzeichnis\Tutorials &amp; Kurse\Udemy Python Bootcamp\learning-python\pycharm_uebungen\pycharm_herumgespiele" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.datetime_module_formatting">
     <configuration name="datetime_module" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pycharm_uebungen" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,8 +60,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="datetime_module_formatting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycharm_uebungen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycharm_herumgespiele" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharm_herumgespiele/datetime_module_formatting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.datetime_module_formatting" />
         <item itemvalue="Python.datetime_module" />
       </list>
     </recent_temporary>
