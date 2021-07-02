@@ -241,5 +241,6 @@
 - Datumsangaben formatieren & Datumswerte einlesen
 - Zeitdifferenzen & Timedelta
 - Quiz: Datumsfunktionen
-... Optionale Musterlösung
-- Fortgeschrittene String Funktionen
+- Optionale Musterlösung
+... - Fortgeschrittene String Funktionen
+- Strings formatieren
