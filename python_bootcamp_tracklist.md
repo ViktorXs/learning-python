@@ -243,5 +243,7 @@
 - Quiz: Datumsfunktionen
 - Optionale Musterlösung
 - Fortgeschrittene String Funktionen
-... Strings formatieren
-- * Quiz 16: String - Funktionen
+- Strings formatieren
+... * Quiz 16: String - Funktionen
+- Optionale Musterlösung
+- das default-dict
