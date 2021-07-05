@@ -255,9 +255,9 @@
 - Fortgeschrittene Datenstruktur DefaultDict
 
 ### Kapitel 15: Entwicklung mit PyCharm
-... Ausblick Worum geht es in den nächsten Lektionen
+- Ausblick Worum geht es in den nächsten Lektionen
 - Python-Programme mit PyCharm
-- Python-Programme über Terminal starten
+- Python-Programme über Terminal starten (Mac / Linux)
 - Python-Programme über Terminal starten (Win)
 - Python-Programme über Verknüpfung starten (Win)
-- Die input()-Funktion in Python
+... Die input()-Funktion in Python
