@@ -239,11 +239,25 @@
 ## 30.06.2021 Mittwoch
 - Mit Datumswerten arbeiten
 - Datumsangaben formatieren & Datumswerte einlesen
+- Zeitdifferenzen & Timedelta...
+
+## 02.06.2021 Freitag
 - Zeitdifferenzen & Timedelta
 - Quiz: Datumsfunktionen
 - Optionale Musterlösung
 - Fortgeschrittene String Funktionen
+- Strings formatieren...
+
+## 05.07.2021 Mittwoch
 - Strings formatieren
-... * Quiz 16: String - Funktionen
+- * Quiz 16: String - Funktionen
 - Optionale Musterlösung
-- das default-dict
+- Fortgeschrittene Datenstruktur DefaultDict
+
+### Kapitel 15: Entwicklung mit PyCharm
+... Ausblick Worum geht es in den nächsten Lektionen
+- Python-Programme mit PyCharm
+- Python-Programme über Terminal starten
+- Python-Programme über Terminal starten (Win)
+- Python-Programme über Verknüpfung starten (Win)
+- Die input()-Funktion in Python

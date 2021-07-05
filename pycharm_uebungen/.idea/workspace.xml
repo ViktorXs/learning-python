@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="394187e6-b606-4898-ba72-30cad85cd885" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../hauptuebungen/10_diverses/.ipynb_checkpoints/08_strings_veraendern-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../hauptuebungen/10_diverses/.ipynb_checkpoints/08_strings_veraendern-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hauptuebungen/10_diverses/08_strings_veraendern.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../hauptuebungen/10_diverses/08_strings_veraendern.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_bootcamp_tracklist.md" beforeDir="false" afterPath="$PROJECT_DIR$/../python_bootcamp_tracklist.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
