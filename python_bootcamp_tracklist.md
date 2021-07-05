@@ -242,5 +242,6 @@
 - Zeitdifferenzen & Timedelta
 - Quiz: Datumsfunktionen
 - Optionale Musterlösung
-... - Fortgeschrittene String Funktionen
-- Strings formatieren
+- Fortgeschrittene String Funktionen
+... Strings formatieren
+- * Quiz 16: String - Funktionen
