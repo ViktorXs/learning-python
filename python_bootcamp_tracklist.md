@@ -263,4 +263,5 @@
 - Die input()-Funktion in Python
 - * Aufgabe: BMI-Rechner
 - Optionale Musterlösung
-... sys.argv in Python
+- sys.argv in Python
+... Mit Ordnerangaben arbeiten
