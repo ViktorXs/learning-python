@@ -260,4 +260,5 @@
 - Python-Programme über Terminal starten (Mac / Linux)
 - Python-Programme über Terminal starten (Win)
 - Python-Programme über Verknüpfung starten (Win)
-... Die input()-Funktion in Python
+- Die input()-Funktion in Python
+... * Aufgabe: BMI-Rechner

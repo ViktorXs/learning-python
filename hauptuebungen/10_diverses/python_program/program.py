@@ -11,12 +11,13 @@ else:
     print("Sieh zu, dass du dein Leben bis dahin genießt. Ab da an geht es nur noch bergab!")
 
 print()
-age2 = str(input("Bitte gebe eine beliebige Zahl ein: "))
-print(age2)
+number = str(input("Bitte gebe eine beliebige Zahl ein: "))
+print(number)
 
 print()
 print("Dein Alter + deine beliebige Zahl: ")
-print(int(age1) + int(age2))
+combined = int(age1) + int(number)
+print(combined)
 
 print()
-input("Druecke eine beliebige Taste, um das Programm zu beenden.")
+input("Drücke eine beliebige Taste, um das Programm zu beenden.")
