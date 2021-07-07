@@ -261,4 +261,6 @@
 - Python-Programme über Terminal starten (Win)
 - Python-Programme über Verknüpfung starten (Win)
 - Die input()-Funktion in Python
-... * Aufgabe: BMI-Rechner
+- * Aufgabe: BMI-Rechner
+- Optionale Musterlösung
+... sys.argv in Python
