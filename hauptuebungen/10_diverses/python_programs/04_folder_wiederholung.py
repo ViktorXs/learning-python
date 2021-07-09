@@ -14,4 +14,3 @@ with open(os.path.dirname(__file__) + "/Beispieldatei.txt", "r") as file:
         print(line)
 
 input("Press any key to close.")
-

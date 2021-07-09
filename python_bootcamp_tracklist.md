@@ -266,4 +266,4 @@
 - sys.argv in Python
 Wiederholungsbedarf! Mit Ordnerangaben arbeiten
 - os path join mit mehreren Parametern und "Punktpunkt"
-... Zeichensätze bis hin UTF-8
+... Zeichensätze bis hin zu UTF-8

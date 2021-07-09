@@ -1,7 +1,6 @@
 import os
 
 # os.path.join und os.listdir
-# wtf, siehe Schrägstrich in Ausgabe
 folder = os.path.join(os.path.dirname(__file__), "folder")
 print("Test1")
 print(folder)
