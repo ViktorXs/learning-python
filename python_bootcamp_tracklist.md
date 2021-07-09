@@ -264,4 +264,5 @@
 - * Aufgabe: BMI-Rechner
 - Optionale Musterlösung
 - sys.argv in Python
-... Mit Ordnerangaben arbeiten
+Wiederholungsbedarf! Mit Ordnerangaben arbeiten
+... os path join mit mehreren Parametern und "Punktpunkt"
