@@ -265,4 +265,5 @@
 - Optionale Musterlösung
 - sys.argv in Python
 Wiederholungsbedarf! Mit Ordnerangaben arbeiten
-... os path join mit mehreren Parametern und "Punktpunkt"
+- os path join mit mehreren Parametern und "Punktpunkt"
+... Zeichensätze bis hin UTF-8

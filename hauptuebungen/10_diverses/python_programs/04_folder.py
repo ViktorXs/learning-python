@@ -25,7 +25,8 @@ with open(os.path.dirname(__file__) + "/Beispieldatei2.txt", "r") as file3:  # D
         print(line3)
 
 # 3.1 Plattformübergreifend freundlich gestalten, weil bei Windows \-Schrägstrich und in unix /-Schrägstriche sind.
-with open(os.path.join(os.path.dirname(__file__), "Beispieldatei3.txt"), "r") as file4:  # / und \ sind dann egal.
+# .join setzt den entsprechenden Schrägstrich ran.
+with open(os.path.join(os.path.dirname(__file__), "Beispieldatei3.txt"), "r") as file4:
     for line4 in file4:
         print(line4)
 
