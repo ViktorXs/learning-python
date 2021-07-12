@@ -1,20 +1,20 @@
 import os
 
 # os.path.join und os.listdir
-folder = os.path.join(os.path.dirname(__file__), "folder")
+folder = os.path.join(os.path.dirname(__file__), "folder")  # /-Universelles Schrägstrich
 print("Test1")
 print(folder)
 print()
 
 # vs
 
-folder = os.path.dirname(__file__) + "/folder"
+folder = os.path.dirname(__file__) + "/folder"  # \-Windows Schrägstrich
 print("Test2")
 print(folder)
 print()
 
 
-# Naja, weiter gehts.
+# Weiter gehts.
 folder = os.path.join(os.path.dirname(__file__), "folder")  # In den ordner "folder" reingehen.
 print("Übung")
 print(folder)
@@ -33,7 +33,7 @@ print(os.listdir(folder))
 print()
 
 print("Inhalte anzeigen")
-folder = os.path.join(os.path.dirname(__file__), "folder")  #
+folder = os.path.join(os.path.dirname(__file__), "folder")
 for file in os.listdir(folder):
     file_path = os.path.join(folder, file)  # Gesamten Pfad jeder Datei anzeigen
 
@@ -48,7 +48,7 @@ for file in os.listdir(folder):
 print()
 
 # Im Verzeichnis beliebig navigieren.
-filename = os.path.join(os.path.dirname(__file__), "folder", ".." "folder", "subfolder", "..", "subfolder", "Textdatei.txt")
+filename = os.path.join(os.path.dirname(__file__), "folder", "..", "folder", "subfolder", "..", "subfolder", "Textdatei.txt")
 print(filename)
 print()
 with open(filename, "r") as file1:
