@@ -255,6 +255,7 @@
 - Fortgeschrittene Datenstruktur DefaultDict
 
 ### Kapitel 15: Entwicklung mit PyCharm
+## Datum ?
 - Ausblick Worum geht es in den nächsten Lektionen
 - Python-Programme mit PyCharm
 - Python-Programme über Terminal starten (Mac / Linux)
@@ -270,11 +271,14 @@ Wiederholungsbedarf! Mit Ordnerangaben arbeiten
 
 ## 12.07.2021 Montag
 - Dateien als UTF-8 öffnen
-... * Aufgabe: Wie oft kommt ein Name in Dateien vor?
+- * Aufgabe: Wie oft kommt ein Name in Dateien vor?
 - Quiz 17: Teste deine Lösung
 - Optionale Musterlösung
 
 ### Kapitel 16: Jupyter Notebooks
+... Einführungsvideo (Aus Interesse ansehen)
   --- Übersprungen. Später erledigen ---
 
 ### Kapitel 17: Flask
+- Einführungsvideo, Hinweise
+- Anlegen des Projekts

@@ -55,4 +55,14 @@ with open(filename, "r") as file1:
     for line in file1:
         print(line)
 
-input("Put in your input.")
+input("1. Put in your input.")
+
+# Im Verzeichnis beliebig navigieren. Majk's Tipp.
+directories = (os.path.dirname(__file__), "folder", "subfolder", "Textdatei.txt")
+filename = os.path.join(*directories)  # mit * entpacken
+
+with open(filename, "r") as file1:
+    for line in file1:
+        print(line)
+
+input("press any key")
