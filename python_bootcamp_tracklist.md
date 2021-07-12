@@ -266,4 +266,15 @@
 - sys.argv in Python
 Wiederholungsbedarf! Mit Ordnerangaben arbeiten
 - os path join mit mehreren Parametern und "Punktpunkt"
-... Zeichensätze bis hin zu UTF-8
+- Zeichensätze bis hin zu UTF-8
+
+## 12.07.2021 Montag
+- Dateien als UTF-8 öffnen
+... * Aufgabe: Wie oft kommt ein Name in Dateien vor?
+- Quiz 17: Teste deine Lösung
+- Optionale Musterlösung
+
+### Kapitel 16: Jupyter Notebooks
+  --- Übersprungen. Später erledigen ---
+
+### Kapitel 17: Flask
