@@ -1,0 +1,13 @@
+.red { /* Ein CSS-Selektor */
+    color: red
+}
+
+.marked {
+    color: green;
+    font-size: 20px
+}
+
+.test {
+    text-decoration: underline;
+    color: violet
+}

@@ -1,0 +1,7 @@
+Wenn Flask in Anaconda als Environment installiert:
+- Run/Debug configurations zur aktuellen .py-Datei öffnen
+- Eintragen: 
+	Script path:			"..\Anaconda3\Scripts\flask-script.py"
+	Parameters:				run
+	Environment variables:	FLASK_APP=BEISPIELDATEI.py
+	Working directory:		Hauptverzeichnis des Projekts, woran man programmiert, wo die BEISPIELDATEI.py liegt
