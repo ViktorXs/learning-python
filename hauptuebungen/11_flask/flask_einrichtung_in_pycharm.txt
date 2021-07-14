@@ -5,3 +5,7 @@ Wenn Flask in Anaconda als Environment installiert:
 	Parameters:				run
 	Environment variables:	FLASK_APP=BEISPIELDATEI.py
 	Working directory:		Hauptverzeichnis des Projekts, woran man programmiert, wo die BEISPIELDATEI.py liegt
+	
+Zusätzliche Environment variables:
+- FLASK_DEBUG=1				// Server auto-reloading, sobald im code was geändert wurde. ! PyCharm sollte als Administrator ausgeführt werden.
+- LANG=DE_DE.UTF-8			Deutsch und UTF-8 Zeichensatz
