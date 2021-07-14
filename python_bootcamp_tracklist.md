@@ -278,9 +278,39 @@
 - Optionale Musterlösung
 
 ### Kapitel 16: Jupyter Notebooks
-... Einführungsvideo (Aus Interesse ansehen)
-  --- Übersprungen. Später erledigen ---
+- Einführungsvideo
+- Jupyter als IDE
+  --- Rest später erledigen ---
 
+## 14.07.2021 Mittwoch
 ### Kapitel 17: Flask
 - Einführungsvideo, Hinweise
-- Anlegen des Projekts
+... Anlegen des Projekts
+- Exkurs HTML 1/2
+- Exkurs HTML 2/2
+- Exkurs CSS 1/2
+- Exkurs CSS 2/2
+- Hinweis zu Kursmaterialien
+- Hello World in Flask
+- Fehler: "SyntaxError: Non-UTF-8 code starting with 'x90' in file flask.exe"
+- Einfachen HTML-Code mit Flask generieren
+- Statische Dateien
+- Templates
+- Template Inheritance
+- Navigation stylen
+- URL-Parameter übergeben
+- Formulare per GET abschicken
+- * Eingabefeld wieder ausfüllen
+- Optionale Musterlösung
+- Eigene Klassen und Dictionaries an View weiterleiten
+- Tupel an View übergeben
+- Views vs Python - Datei für Berechnungen
+- * Aufgabe: Wechselkurstabelle
+- Hinweis auf dictionary.get
+- Exkurs HTML: Wie erstellt man eine Tabelle?
+- Exkurs HTL: Mehrere Spalten nebeneinander anzeigen
+- Musterlösungen 1 - 3
+- Dekoratoren 1/3
+- Dekoratoren 2/3
+- Dekoratoren 3/3
+- Flask: Und wie geht's jetzt weiter?
