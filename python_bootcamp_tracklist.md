@@ -243,7 +243,7 @@
 
 ## 02.06.2021 Freitag
 - Zeitdifferenzen & Timedelta
-- Quiz: Datumsfunktionen
+- * Quiz: Datumsfunktionen
 - Optionale Musterlösung
 - Fortgeschrittene String Funktionen
 - Strings formatieren...
@@ -274,7 +274,7 @@
 ## 12.07.2021 Montag
 - Dateien als UTF-8 öffnen
 - * Aufgabe: Wie oft kommt ein Name in Dateien vor?
-- Quiz 17: Teste deine Lösung
+- * Quiz 17: Teste deine Lösung
 - Optionale Musterlösung
 
 ### Kapitel 16: Jupyter Notebooks
@@ -285,10 +285,10 @@
 ## 14.07.2021 Mittwoch
 ### Kapitel 17: Flask
 - Einführungsvideo, Hinweise
-... Anlegen des Projekts
+- Anlegen des Projekts
 - Exkurs HTML 1/2
 - Exkurs HTML 2/2
-- Exkurs CSS 1/2
+* * * Exkurs CSS 1/2
 - Exkurs CSS 2/2
 - Hinweis zu Kursmaterialien
 - Hello World in Flask
