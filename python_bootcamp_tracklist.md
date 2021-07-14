@@ -292,6 +292,7 @@
 - Exkurs CSS 2/2
 - Hinweis zu Kursmaterialien
 - Hello World in Flask
+
 (-) Fehler: "SyntaxError: Non-UTF-8 code starting with 'x90' in file flask.exe"
 - Einfachen HTML-Code mit Flask generieren
 - Statische Dateien
