@@ -295,9 +295,9 @@
 - Fehler: "SyntaxError: Non-UTF-8 code starting with 'x90' in file flask.exe"
 - Einfachen HTML-Code mit Flask generieren
 - Statische Dateien
+- Templates
 
-(-) Templates
-- Template Inheritance
+(-) Template Inheritance
 - Navigation stylen
 - URL-Parameter übergeben
 - Formulare per GET abschicken

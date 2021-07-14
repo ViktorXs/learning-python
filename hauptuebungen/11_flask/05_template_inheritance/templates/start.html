@@ -1,0 +1,19 @@
+<!-- komplizierten Code hierher verlagert und wiederverwendbar als Vorlage nutzen -->
+
+<!DOCTYPE html>
+<html lang="de_DE">
+    <head>
+        <meta charset="UTF-8">
+        <title>start.html</title>
+    </head>
+    <body>
+        <h1>{{ title }}</h1>
+
+        <h3>{{ tool }}</h3>     <!-- enthält Parameter aus run.py ... render_template("start.html", tool="Ruler") -->
+
+        {% for item in tools %} <!-- Python syntax mit Steuerbefehl starten mit { und % sowie beenden % und } -->
+            <h3>{{ item }}</h3> <!-- aus der Schleife die items einfügen -->
+        {% endfor %}            <!-- for-Schleife muss beendet werden -->
+
+    </body>
+</html>
