@@ -10,6 +10,9 @@ There will be differencies and varying things in this project, like different na
 Finished things that may have wrong naming conventions etc. I will still keep them as they are and will not change for the sake of keeping track, how well I already progressed and learned python.
 
 # Changelog
+12.07.2021
+- Finished chapter "Diverses" with all its Sub-chapters
+
 28.06.2021
 - Finished sub-chapter "Funktionsparameter & Sortierung" from "Diverses"
 

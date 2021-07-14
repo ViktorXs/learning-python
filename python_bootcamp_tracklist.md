@@ -248,14 +248,14 @@
 - Fortgeschrittene String Funktionen
 - Strings formatieren...
 
-## 05.07.2021 Mittwoch
+## 05.07.2021 Montag
 - Strings formatieren
 - * Quiz 16: String - Funktionen
 - Optionale Musterlösung
 - Fortgeschrittene Datenstruktur DefaultDict
 
+## 07.07.2021 Mittwoch
 ### Kapitel 15: Entwicklung mit PyCharm
-## Datum ?
 - Ausblick Worum geht es in den nächsten Lektionen
 - Python-Programme mit PyCharm
 - Python-Programme über Terminal starten (Mac / Linux)
@@ -265,7 +265,9 @@
 - * Aufgabe: BMI-Rechner
 - Optionale Musterlösung
 - sys.argv in Python
-Wiederholungsbedarf! Mit Ordnerangaben arbeiten
+
+## 09.07.2021 Mittwoch
+- Mit Ordnerangaben arbeiten Wiederholungsbedarf!
 - os path join mit mehreren Parametern und "Punktpunkt"
 - Zeichensätze bis hin zu UTF-8
 
