@@ -14,7 +14,7 @@ def locations():
 @app.route("/test")
 def good_toolse():
     greeting = "Testpage"
-    return render_template("test.html", paragraph=greeting)
+    return render_template("locations.html", paragraph=greeting)
 
 
 # @app.route("/platzhalter")
