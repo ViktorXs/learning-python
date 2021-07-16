@@ -296,9 +296,9 @@
 - Einfachen HTML-Code mit Flask generieren
 - Statische Dateien
 - Templates
+- Template Inheritance
 
-(-) Template Inheritance
-- Navigation stylen
+(-) Navigation stylen
 - URL-Parameter übergeben
 - Formulare per GET abschicken
 - * Eingabefeld wieder ausfüllen
