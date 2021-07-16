@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 
 @app.route("/")
-def locations():
+def start():
     title = "Nice locations to visit"
     greeting = "Find your location of love!"
     places = ["Paris", "Stade", "Hamburg", "Praque"]
@@ -12,11 +12,12 @@ def locations():
 
 
 @app.route("/locations")
-def test():
+def locations():
     parameters = request.args
     location = parameters.get("location")
     daytime = parameters.get("daytime")
 
+# print()'s auskommentieren, damit kein Internal Server Error kommt, wenn keine Parameter per URL durchgegeben werden
     print(request.args)
     print("Location is set to: " + location)
     print("Preferred daytime is: " + daytime)

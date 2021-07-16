@@ -1,6 +1,20 @@
 {% extends "/layouts/main.html" %}
 
 {% block content %}
-    <p>Location is set to: {{ location }}</p>
-    <p>Preferred daytime is: {{ daytime }}</p>
+    <h2>Please type in your Destination and preferred Daytime</h2>
+    {% if location == None: %}
+        <p>No location entered!</p>
+    {% else: %}
+        <p>Location is set to: {{ location }}</p>
+    {% endif %}
+
+    {% if daytime == None: %}
+        <p>No preferred daytime entered!</p>
+    {% else: %}
+        <p>Preferred daytime is: {{ daytime }}</p>
+    {% endif %}
+
+    <h3>Location:</h3>
+    <h3>Daytime:</h3>
+
 {% endblock %}

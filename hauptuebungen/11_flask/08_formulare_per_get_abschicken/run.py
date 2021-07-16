@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 
 @app.route("/")
-def locations():
+def start():
     title = "Nice locations to visit"
     greeting = "Find your location of love!"
     places = ["Paris", "Stade", "Hamburg", "Praque"]
@@ -12,13 +12,9 @@ def locations():
 
 
 @app.route("/locations")
-def test():
+def locations():
     parameters = request.args
     location = parameters.get("location")
     daytime = parameters.get("daytime")
-
-    print(request.args)
-    print("Location is set to: " + location)
-    print("Preferred daytime is: " + daytime)
 
     return render_template("locations.html", location=location, daytime=daytime)
