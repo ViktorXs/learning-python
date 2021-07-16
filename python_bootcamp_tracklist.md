@@ -297,9 +297,9 @@
 - Statische Dateien
 - Templates
 - Template Inheritance
+- Navigation stylen
 
-(-) Navigation stylen
-- URL-Parameter übergeben
+(-) URL-Parameter übergeben
 - Formulare per GET abschicken
 - * Eingabefeld wieder ausfüllen
 - Optionale Musterlösung
