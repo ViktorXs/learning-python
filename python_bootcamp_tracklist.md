@@ -300,10 +300,10 @@
 - Navigation stylen
 - URL-Parameter übergeben
 - Formulare per GET abschicken
-
-(-) * Eingabefeld wieder ausfüllen
+- Eingabefeld wieder ausfüllen
 - Optionale Musterlösung
-- Eigene Klassen und Dictionaries an View weiterleiten
+
+(-) Eigene Klassen und Dictionaries an View weiterleiten
 - Tupel an View übergeben
 - Views vs Python - Datei für Berechnungen
 - * Aufgabe: Wechselkurstabelle
