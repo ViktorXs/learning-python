@@ -2,13 +2,35 @@ from flask import Flask, render_template, request  # request modul notwendig, um
 app = Flask(__name__)
 
 
+class Location():
+    def __init__(self, location, duration):
+        self.location = location
+        self.duration = duration
+
+
 @app.route("/")
 def start():
     title = "Nice locations to visit"
     greeting = "Find your location of love!"
-    places = ["Paris", "Stade", "Hamburg", "Praque"]
 
-    return render_template("start.html", paragraph=greeting, location="Barcelona", locations=places, title=title)
+    places = [
+        Location("Paris", 2),
+        Location("Stade", 5),
+        Location("Hamburg", 1),
+        Location("Praque", 3)
+    ]
+
+#    places = [
+#        {"location": "Paris", "duration": "4"},
+#        {"location": "Stade", "duration": "10"},
+#        {"location": "Hamburg", "duration": "2"},
+#        {"location": "Praque", "duration": "6"},
+#    ]
+    return render_template("start.html",
+                           paragraph=greeting,
+                           location={"location": "Barcelona", "duration": 14},
+                           locations=places,
+                           title=title)
 
 
 @app.route("/locations")

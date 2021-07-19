@@ -302,9 +302,9 @@
 - Formulare per GET abschicken
 - Eingabefeld wieder ausfüllen
 - Optionale Musterlösung
+- Eigene Klassen und Dictionaries an View weiterleiten
 
-(-) Eigene Klassen und Dictionaries an View weiterleiten
-- Tupel an View übergeben
+(-) Tupel an View übergeben
 - Views vs Python - Datei für Berechnungen
 - * Aufgabe: Wechselkurstabelle
 - Hinweis auf dictionary.get
