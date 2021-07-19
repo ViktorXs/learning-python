@@ -1,0 +1,24 @@
+{% extends "/layouts/main.html" %}
+
+{% block content %}
+    <h4>Exchange rate calculator</h4>
+    <div>
+        <form>
+            <label for="currency">Enter the first currency</label>
+            <input type="text" name="currency" id="currency" value="{{ currency }}" />
+
+            <label for="target">Enter the target currency</label>
+            <input type="text" name="target" id="target" value="{{ target }}" />
+            <br><br>
+
+            <input type="submit" />
+        </form>
+
+        <table>
+            <thead>
+                <th>Test1</th>
+                <th>Test2</th>
+            </thead>
+        </table>
+    </div>
+{% endblock %}

@@ -297,8 +297,14 @@
 - Statische Dateien
 - Templates
 - Template Inheritance
+
+## 16.07.2021 Freitag
+- Template Inheritance
 - Navigation stylen
 - URL-Parameter übergeben
+- Formulare per GET abschicken
+
+## 19.07.2021 Montag
 - Formulare per GET abschicken
 - Eingabefeld wieder ausfüllen
 - Optionale Musterlösung
@@ -307,9 +313,9 @@
 - Views vs Python - Datei für Berechnungen
 
 (-) * Aufgabe: Wechselkurstabelle
-- Hinweis auf dictionary.get
-- Exkurs HTML: Wie erstellt man eine Tabelle?
-- Exkurs HTL: Mehrere Spalten nebeneinander anzeigen
+x Hinweis auf dictionary.get
+x Exkurs HTML: Wie erstellt man eine Tabelle?
+x Exkurs HTL: Mehrere Spalten nebeneinander anzeigen
 - Musterlösungen 1 - 3
 - Dekoratoren 1/3
 - Dekoratoren 2/3

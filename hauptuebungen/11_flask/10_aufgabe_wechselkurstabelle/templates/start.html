@@ -5,22 +5,10 @@
     <h1>{{ title }}</h1>
     <p>{{ paragraph }}</p>
 
-    <!-- Klasse oder Dictionary ohne Klasse -->
     {% for location in locations %}
         <p>{{ location.location }} <span class="light">for {{ location.duration }} day/s.</span></p>
     {% endfor %}
 
-    <!-- Tupel ohne Klasse
-    {% for location in locations %}
-        <p>{{ location[0] }} <span class="light">for {{ location[1] }} day/s.</span></p>
-    {% endfor %}
-    -->
-
-    <!-- Berechnungen könnten in der View gemacht werden. Ist aber nicht zu empfehlen
-    {% for location in locations %}
-        <p>{{ location.location }} <span class="light">for {{ location.duration }} day/s.</span></p>
-    {% endfor %}
-    -->
     <p>{{ location.location }} <span class="light">for {{ location.duration }} day/s.</span></p>
 
 {% endblock %}
