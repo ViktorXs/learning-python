@@ -303,10 +303,10 @@
 - Eingabefeld wieder ausfüllen
 - Optionale Musterlösung
 - Eigene Klassen und Dictionaries an View weiterleiten
-
-(-) Tupel an View übergeben
+- Tupel an View übergeben
 - Views vs Python - Datei für Berechnungen
-- * Aufgabe: Wechselkurstabelle
+
+(-) * Aufgabe: Wechselkurstabelle
 - Hinweis auf dictionary.get
 - Exkurs HTML: Wie erstellt man eine Tabelle?
 - Exkurs HTL: Mehrere Spalten nebeneinander anzeigen

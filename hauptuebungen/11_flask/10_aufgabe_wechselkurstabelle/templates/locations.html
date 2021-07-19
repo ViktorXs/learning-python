@@ -1,0 +1,55 @@
+{% extends "/layouts/main.html" %}
+
+{% block content %}
+    <div>
+        <h5>Please type in your Destination and preferred Daytime</h5>
+        <div>
+            <form method="get">  <!-- Formular per GET abschicken. "Die Parameter landen in der Adresszeile." -->
+                <label for="location">Location</label>
+                <input
+                    class="light"
+                    type="text"
+                    id="location"
+                    name="location"
+                    value="{% if location != None: %}{{ location }}{% endif %}" />
+
+                {% if location == None: %}
+                    <p class="warning">No location entered!</p>
+                {% else: %}
+                    <p>Location is set to <strong>{{ location }}</strong></p>
+                {% endif %}
+
+                <label for="daytime">Daytime</label>
+                <input
+                    class="light"
+                    type="text"
+                    id="daytime"
+                    name="daytime"
+                    value="{% if daytime != None: %}{{ daytime }}{% endif %}" />
+
+                {% if daytime == None: %}
+                    <p class="warning">No preferred daytime entered!</p>
+                {% else: %}
+                    <p>Preferred daytime is <strong>{{ daytime }}</strong></p>
+                {% endif %}
+
+                <label for="days">Duration</label>
+                <input
+                    class="light"
+                    type="number"
+                    id="days"
+                    name="days"
+                    value="{% if days != None: %}{{ days }}{% endif %}" />
+
+                {% if days == None: %}
+                    <p class="warning">Duration unknown!!</p>
+                {% else: %}
+                    <p>Your stay will last <strong>{{ days }} days</strong></p>
+                {% endif %}
+
+                <input type="submit" value="Submit Form" />
+            </form>
+        </div>
+    </div>
+
+{% endblock %}

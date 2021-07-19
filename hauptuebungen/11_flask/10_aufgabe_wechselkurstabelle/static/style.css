@@ -1,0 +1,17 @@
+.list-none {
+    list-style-type: none;
+}
+
+.nav {
+    float: left;
+    padding-right: 20px
+}
+
+.warning {
+    color: red;
+    font-weight: 200
+}
+
+.light {
+    font-weight: 200
+}
