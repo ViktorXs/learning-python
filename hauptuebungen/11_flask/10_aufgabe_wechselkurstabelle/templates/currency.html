@@ -1,24 +1,80 @@
 {% extends "/layouts/main.html" %}
 
 {% block content %}
-    <h4>Exchange rate calculator</h4>
+    <h4>Currency Calculator</h4>
     <div>
+        <p class="light">Possible Currencies: EUR, GBP, DM</p>
         <form>
-            <label for="currency">Enter the first currency</label>
-            <input type="text" name="currency" id="currency" value="{{ currency }}" />
+            <div class="row">
+                <div class="one-half column">
+                    <label for="currency">Enter the first currency</label>
+                    <input type="text" name="currency" id="currency" value="{{ currency }}" />
+                </div>
+                <div class="one-half column">
+                    <label for="target">Enter the target currency</label>
+                    <input type="text" name="target" id="target" value="{{ target }}" />
+                </div>
 
-            <label for="target">Enter the target currency</label>
-            <input type="text" name="target" id="target" value="{{ target }}" />
+            <!-- Backup Optimierung Eingabe. Geht noch nicht.
+                <div class="one-half column">
+                    <label for="currency">Enter the first currency</label>
+                    <select class="u-full-width" id="currency">
+                        <option type="text" name="currency" value="EUR">EUR</option>
+                        <option type="text" name="currency" value="GBP">GBP</option>
+                        <option type="text" name="currency" value="DM">DM</option>
+                    </select>
+                </div>
+                <div class="one-half column">
+                    <label for="target">Enter the target currency</label>
+                    <select class="u-full-width" id="target">
+                        <option type="text" name="target" value="{{ target }}">EUR</option>
+                        <option type="text" name="target" value="{{ target }}">GBP</option>
+                        <option type="text" name="target" value="{{ target }}">DM</option>
+                    </select>
+                </div>
+            -->
+
+            </div>
+            <label for="value">Enter the amount</label>
+            <input type="number" name="first_value" id="value" value="{{ first_value }}" />
             <br><br>
-
             <input type="submit" />
         </form>
-
-        <table>
+    </div>
+    <div>
+        <table class="u-full-width">
             <thead>
-                <th>Test1</th>
-                <th>Test2</th>
+                <tr>
+                    <th>Original Value</th>
+                    <th>Calculated currency</th>
+                </tr>
             </thead>
+            <tbody>
+                <tr>
+                    <td>{{ first_value }}</td>
+                    <td>{{ calculated }}</td>
+                </tr>
+                <tr>
+                    <th>_</th>
+                    <th>_</th>
+                </tr>
+                <tr>
+                    <th>Default Values</th>
+                    <th>Calculated currency</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>{{ calculated }}</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>{{ calculated }}</td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td>{{ calculated }}</td>
+                </tr>
+            </tbody>
         </table>
     </div>
 {% endblock %}

@@ -39,12 +39,19 @@ def locations():
 # Aufgabe ab hier
 @app.route("/currency")
 def calculator():
+
+    # hochexperimentell
     parameters = request.args
     currency = parameters.get("currency")
     target = parameters.get("target")
     calculated = parameters.get("calculated")
+    first_value = parameters.get("first_value")
 
-    return render_template("currency.html", currency=currency, target=target, calulated=calculated)
+    return render_template("currency.html",
+                           currency=currency,
+                           target=target,
+                           first_value=first_value,
+                           calulated=calculated)
 
 # Schmierblatt:
 
