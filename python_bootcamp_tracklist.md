@@ -299,9 +299,9 @@
 - Template Inheritance
 - Navigation stylen
 - URL-Parameter übergeben
+- Formulare per GET abschicken
 
-(-) Formulare per GET abschicken
-- * Eingabefeld wieder ausfüllen
+(-) * Eingabefeld wieder ausfüllen
 - Optionale Musterlösung
 - Eigene Klassen und Dictionaries an View weiterleiten
 - Tupel an View übergeben
