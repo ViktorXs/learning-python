@@ -1,7 +1,8 @@
 from flask import Flask, render_template, request
+
 app = Flask(__name__)
 
-class Location():
+class Location:
     def __init__(self, location, duration):
         self.location = location
         self.duration = duration
@@ -25,7 +26,6 @@ def start():
                            locations=places,
                            title=title)
 
-
 @app.route("/locations")
 def locations():
     parameters = request.args
@@ -35,29 +35,58 @@ def locations():
 
     return render_template("locations.html", location=location, daytime=daytime, days=days)
 
-
 # Aufgabe ab hier
 @app.route("/currency")
 def calculator():
-
-    # hochexperimentell
     parameters = request.args
     currency = parameters.get("currency")
     target = parameters.get("target")
     calculated = parameters.get("calculated")
-    first_value = parameters.get("first_value")
+    amount = parameters.get("amount")
+
+
+#    eur_to = {
+#        "DM": 1.95583,
+#        "USD": 1.18,
+#        "GBP": 0.86
+#    }
+#
+#    for current in eur_to:
+#        if current[0] == currency:
+#            calculated = float(amount) * current[1]
+
+# EUR
+    if currency == "EUR" and target == "DM":
+        calculated = float(amount) * 1.95583
+    if currency == "EUR" and target == "USD":
+        calculated = float(amount) * 1.18
+    if currency == "EUR" and target == "GBP":
+        calculated = float(amount) * 0.86
+
+# DM
+    if currency == "DM" and target == "EUR":
+        calculated = float(amount) * 0.51129
+    if currency == "DM" and target == "USD":
+        calculated = float(amount) * 0.60719
+    if currency == "DM" and target == "GBP":
+        calculated = float(amount) * 2.27652
+# USD
+    if currency == "USD" and target == "EUR":
+        calculated = float(amount) * 0.84746
+    if currency == "USD" and target == "DM":
+        calculated = float(amount) * 1.64693
+    if currency == "USD" and target == "GBP":
+        calculated = float(amount) * 0.73481
+# GBP
+    if currency == "GBP" and target == "EUR":
+        calculated = float(amount) * 1.16279
+    if currency == "GBP" and target == "DM":
+        calculated = float(amount) * 0.43927
+    if currency == "GBP" and target == "USD":
+        calculated = float(amount) * 1.36090
 
     return render_template("currency.html",
                            currency=currency,
                            target=target,
-                           first_value=first_value,
-                           calulated=calculated)
-
-# Schmierblatt:
-
-    # 1 EUR = 1,95583 DEM
-    # 1 DEM = 0,51129 EUR
-
-    # dm_eur = 1.95583
-    # usd_eur = 1.18
-    # gbp_eur = 0.86
+                           amount=float(amount),
+                           calculated=round(calculated, 2))

@@ -8,73 +8,71 @@
             <div class="row">
                 <div class="one-half column">
                     <label for="currency">Enter the first currency</label>
-                    <input type="text" name="currency" id="currency" value="{{ currency }}" />
+                    <input type="text" name="currency" id="currency" value="{{ currency }}"/>
                 </div>
                 <div class="one-half column">
                     <label for="target">Enter the target currency</label>
-                    <input type="text" name="target" id="target" value="{{ target }}" />
+                    <input type="text" name="target" id="target" value="{{ target }}"/>
                 </div>
 
             <!-- Backup Optimierung Eingabe. Geht noch nicht.
                 <div class="one-half column">
                     <label for="currency">Enter the first currency</label>
                     <select class="u-full-width" id="currency">
-                        <option type="text" name="currency" value="EUR">EUR</option>
-                        <option type="text" name="currency" value="GBP">GBP</option>
-                        <option type="text" name="currency" value="DM">DM</option>
+                        <option type="text" name="currency" amount="EUR">EUR</option>
+                        <option type="text" name="currency" amount="GBP">GBP</option>
+                        <option type="text" name="currency" amount="DM">DM</option>
                     </select>
                 </div>
                 <div class="one-half column">
                     <label for="target">Enter the target currency</label>
                     <select class="u-full-width" id="target">
-                        <option type="text" name="target" value="{{ target }}">EUR</option>
-                        <option type="text" name="target" value="{{ target }}">GBP</option>
-                        <option type="text" name="target" value="{{ target }}">DM</option>
+                        <option type="text" name="target" amount="{{ target }}">EUR</option>
+                        <option type="text" name="target" amount="{{ target }}">GBP</option>
+                        <option type="text" name="target" amount="{{ target }}">DM</option>
                     </select>
                 </div>
             -->
 
             </div>
-            <label for="value">Enter the amount</label>
-            <input type="number" name="first_value" id="value" value="{{ first_value }}" />
+            <label for="amount">Enter the amount</label>
+            <input type="number" step="any" min="0" name="amount" id="amount" value="{{ amount }}" />
             <br><br>
             <input type="submit" />
         </form>
     </div>
-    <div>
-        <table class="u-full-width">
-            <thead>
-                <tr>
-                    <th>Original Value</th>
-                    <th>Calculated currency</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>{{ first_value }}</td>
-                    <td>{{ calculated }}</td>
-                </tr>
-                <tr>
-                    <th>_</th>
-                    <th>_</th>
-                </tr>
-                <tr>
-                    <th>Default Values</th>
-                    <th>Calculated currency</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>{{ calculated }}</td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>{{ calculated }}</td>
-                </tr>
-                <tr>
-                    <td>100</td>
-                    <td>{{ calculated }}</td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="row">
+        <div class="six columns">
+            <table class="u-full-width">
+                <thead>
+                    <tr>
+                        <th>Your amount</th>
+                        <th>Preferred currency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{ amount }} {{ currency }}</td>
+                        <td>{{ calculated }} {{ target }}</td>
+                    </tr>
+                    <tr>
+                        <td>Examples</td>
+                        <td>Preferred currency</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 {% endblock %}
