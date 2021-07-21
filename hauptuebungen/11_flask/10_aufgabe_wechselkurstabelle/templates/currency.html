@@ -4,15 +4,15 @@
     <h4>Currency Calculator</h4>
     <div>
         <p class="light">Possible Currencies: EUR, GBP, DM</p>
-        <form>
+        <form method="get">  <!-- method="get" vergessen -->
             <div class="row">
                 <div class="one-half column">
                     <label for="currency">Enter the first currency</label>
-                    <input type="text" name="currency" id="currency" value="{{ currency }}"/>
+                    <input type="text" name="currency" id="currency" value="{{ currency }}" />
                 </div>
                 <div class="one-half column">
                     <label for="target">Enter the target currency</label>
-                    <input type="text" name="target" id="target" value="{{ target }}"/>
+                    <input type="text" name="target" id="target" value="{{ target }}" />
                 </div>
 
             <!-- Backup Optimierung Eingabe. Geht noch nicht.
@@ -60,16 +60,12 @@
                         <td>Preferred currency</td>
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td></td>
+                        <td>1 {{ currency }}</td>
+                        <td>{{ calculated / amount }} {{ target }}</td>
                     </tr>
                     <tr>
-                        <td>10</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>100</td>
-                        <td></td>
+                        <td>10 {{ currency }}</td>
+                        <td>{{ calculated / amount * 10 }} {{ target }}</td>
                     </tr>
                 </tbody>
             </table>
