@@ -312,12 +312,13 @@
 - Tupel an View übergeben
 - Views vs Python - Datei für Berechnungen
 
-(-) * Aufgabe: Wechselkurstabelle
-x Hinweis auf dictionary.get
-x Exkurs HTML: Wie erstellt man eine Tabelle?
-x Exkurs HTL: Mehrere Spalten nebeneinander anzeigen
+- Aufgabe: Wechselkurstabelle
+- Hinweis auf dictionary.get
+- Exkurs HTML: Wie erstellt man eine Tabelle?
+- Exkurs HTL: Mehrere Spalten nebeneinander anzeigen
 - Musterlösungen 1 - 3
-- Dekoratoren 1/3
+
+(-) Dekoratoren 1/3
 - Dekoratoren 2/3
 - Dekoratoren 3/3
 - Flask: Und wie geht's jetzt weiter?

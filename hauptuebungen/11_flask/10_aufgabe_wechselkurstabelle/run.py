@@ -22,7 +22,7 @@ def start():
     ]
 
     return render_template("start.html",
-                           paragraph=greeting,
+                           paraagraph=greeting,
                            location={"location": "Barcelona", "duration": 14},
                            locations=places,
                            title=title)
@@ -30,10 +30,10 @@ def start():
 
 @app.route("/locations")
 def locations():
-    parameters = request.args
-    location = parameters.get("location")
-    daytime = parameters.get("daytime")
-    days = parameters.get("days")
+    paraameters = request.args
+    location = paraameters.get("location")
+    daytime = paraameters.get("daytime")
+    days = paraameters.get("days")
 
     return render_template("locations.html", location=location, daytime=daytime, days=days)
 
@@ -41,22 +41,11 @@ def locations():
 # Aufgabe ab hier
 @app.route("/currency")
 def calculator():
-    parameters = request.args
-    currency = parameters.get("currency", "EUR")  # Kein NonteType TypeError mit zweitem Parameter, der mitgeladen wird.
-    target = parameters.get("target", "USD")
-    calculated = parameters.get("calculated", 1)
-    amount = float(parameters.get("amount", 1))
-
-#    eur_to = {
-#        "DM": 1.95583,
-#        "USD": 1.18,
-#        "GBP": 0.86
-#    }
-#
-#    for current in eur_to:
-#        if currency == current:
-#            print(current)
-#            print(eur_to[current])
+    paraameters = request.args
+    currency = paraameters.get("currency", "EUR")  # Kein NonteType TypeError mit zweitem Parameter, der mitgeladen wird.
+    target = paraameters.get("target", "USD")
+    calculated = paraameters.get("calculated", 1)
+    amount = float(paraameters.get("amount", 1))
 
     # EUR
     if currency == "EUR" and target == "DM":
@@ -93,7 +82,35 @@ def calculator():
     return render_template("currency.html",
                            currency=currency,
                            target=target,
-                           # amount=float(amount),
-                           # calculated=round(calculated, 2))
                            amount=amount,
                            calculated=round(calculated, 2))
+
+@app.route("/dict_currency", methods=["GET", "POST"])
+def dict_calculator():
+    para = request.args
+    curr1 = para.get("curr1", "EUR")
+    curr2 = para.get("curr2", "USD")
+    amount = float(para.get("amount", 1))
+    calculated = para.get("calculated", 1)
+
+    eur_to = {"DM": 1.95583, "USD": 1.17999, "GBP": 0.86000, "EUR": 1}
+    dm_to = {"EUR": 0.51129, "USD": 0.60719, "GBP": 0.43927, "DM": 1}
+    usd_to = {"EUR": 0.84746, "DM": 1.64693, "GBP": 0.73481, "USD": 1}
+    gbp_to = {"EUR": 1.16279, "DM": 2.27652, "USD": 1.36090, "GBP": 1}
+
+    if curr1 == "EUR" and curr2 in eur_to:
+        calculated = amount * eur_to[curr2]
+    elif curr1 == "DM" and curr2 in dm_to:
+        calculated = amount * dm_to[curr2]
+    elif curr1 == "USD" and curr2 in usd_to:
+        calculated = amount * usd_to[curr2]
+    elif curr1 == "GBP" and curr2 in gbp_to:
+        calculated = amount * gbp_to[curr2]
+    else:
+        print("Currency currently not available.")
+
+    return render_template("dict_currency.html",
+                           curr1=curr1,
+                           curr2=curr2,
+                           amount=amount,
+                           calculated=calculated)
