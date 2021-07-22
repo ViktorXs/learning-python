@@ -309,14 +309,18 @@
 - Eingabefeld wieder ausfüllen
 - Optionale Musterlösung
 - Eigene Klassen und Dictionaries an View weiterleiten
+
+# 21.07.2021 Mittwoch
 - Tupel an View übergeben
 - Views vs Python - Datei für Berechnungen
-
 - Aufgabe: Wechselkurstabelle
 - Hinweis auf dictionary.get
 - Exkurs HTML: Wie erstellt man eine Tabelle?
 - Exkurs HTL: Mehrere Spalten nebeneinander anzeigen
 - Musterlösungen 1 - 3
+
+# 22.07.2021 Donnerstag
+- (Optimierungen an Wechselkurstabelle)
 
 (-) Dekoratoren 1/3
 - Dekoratoren 2/3
