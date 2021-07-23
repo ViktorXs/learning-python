@@ -325,7 +325,7 @@
 # 23.07.2021 Freitag
 - (Optimierungen an Wechselkurstabelle)
 
-(-) Dekoratoren 1/3
+- Dekoratoren 1/3
 - Dekoratoren 2/3
 - Dekoratoren 3/3
 - Flask: Und wie geht's jetzt weiter?
