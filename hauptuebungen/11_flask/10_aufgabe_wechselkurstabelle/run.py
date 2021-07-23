@@ -85,7 +85,7 @@ def calculator():
                            amount=amount,
                            calculated=round(calculated, 2))
 
-@app.route("/dict_currency", methods=["GET", "POST"])
+@app.route("/dict_currency")
 def dict_calculator():
     para = request.args
     curr1 = request.form.get("curr1", "EUR")
