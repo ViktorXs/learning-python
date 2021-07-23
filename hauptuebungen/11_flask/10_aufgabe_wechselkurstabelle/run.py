@@ -88,10 +88,11 @@ def calculator():
 @app.route("/dict_currency", methods=["GET", "POST"])
 def dict_calculator():
     para = request.args
-    curr1 = para.get("curr1", "EUR")
-    curr2 = para.get("curr2", "USD")
+    curr1 = request.form.get("curr1", "EUR")
+    curr2 = request.form.get("curr2", "USD")
     amount = float(para.get("amount", 1))
     calculated = para.get("calculated", 1)
+    currencies = para.get("currencies", ("EUR", "DM", "USD", "GBP"))
 
     eur_to = {"DM": 1.95583, "USD": 1.17999, "GBP": 0.86000, "EUR": 1}
     dm_to = {"EUR": 0.51129, "USD": 0.60719, "GBP": 0.43927, "DM": 1}
@@ -113,4 +114,5 @@ def dict_calculator():
                            curr1=curr1,
                            curr2=curr2,
                            amount=amount,
-                           calculated=calculated)
+                           calculated=calculated,
+                           currencies=currencies)
