@@ -1,0 +1,14 @@
+{% extends "/layouts/main.html" %}
+
+{% block content %}
+
+    <h1>{{ title }}</h1>
+    <p>{{ paragraph }}</p>
+
+    {% for location in locations %}
+        <p>{{ location.location }} <span class="light">for {{ location.duration }} day/s.</span></p>
+    {% endfor %}
+
+    <p>{{ location.location }} <span class="light">for {{ location.duration }} day/s.</span></p>
+
+{% endblock %}

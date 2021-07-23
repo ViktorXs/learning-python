@@ -38,61 +38,13 @@ def locations():
     return render_template("locations.html", location=location, daytime=daytime, days=days)
 
 
-# Aufgabe ab hier
 @app.route("/currency")
-def calculator():
-    paraameters = request.args
-    currency = paraameters.get("currency", "EUR")  # Kein NonteType TypeError mit zweitem Parameter, der mitgeladen wird.
-    target = paraameters.get("target", "USD")
-    calculated = paraameters.get("calculated", 1)
-    amount = float(paraameters.get("amount", 1))
-
-    # EUR
-    if currency == "EUR" and target == "DM":
-        calculated = amount * 1.95583
-    if currency == "EUR" and target == "USD":
-        calculated = amount * 1.18
-    if currency == "EUR" and target == "GBP":
-        calculated = amount * 0.86
-
-    # DM
-    if currency == "DM" and target == "EUR":
-        calculated = amount * 0.51129
-    if currency == "DM" and target == "USD":
-        calculated = amount * 0.60719
-    if currency == "DM" and target == "GBP":
-        calculated = amount * 2.27652
-
-    # USD
-    if currency == "USD" and target == "EUR":
-        calculated = amount * 0.84746
-    if currency == "USD" and target == "DM":
-        calculated = amount * 1.64693
-    if currency == "USD" and target == "GBP":
-        calculated = amount * 0.73481
-
-    # GBP
-    if currency == "GBP" and target == "EUR":
-        calculated = amount * 1.16279
-    if currency == "GBP" and target == "DM":
-        calculated = amount * 0.43927
-    if currency == "GBP" and target == "USD":
-        calculated = amount * 1.36090
-
-    return render_template("currency.html",
-                           currency=currency,
-                           target=target,
-                           amount=amount,
-                           calculated=round(calculated, 2))
-
-@app.route("/dict_currency")
 def dict_calculator():
     para = request.args
     curr1 = request.form.get("curr1", "EUR")
     curr2 = request.form.get("curr2", "USD")
     amount = float(para.get("amount", 1))
     calculated = para.get("calculated", 1)
-    currencies = para.get("currencies", ("EUR", "DM", "USD", "GBP"))
 
     eur_to = {"DM": 1.95583, "USD": 1.17999, "GBP": 0.86000, "EUR": 1}
     dm_to = {"EUR": 0.51129, "USD": 0.60719, "GBP": 0.43927, "DM": 1}
@@ -114,5 +66,4 @@ def dict_calculator():
                            curr1=curr1,
                            curr2=curr2,
                            amount=amount,
-                           calculated=calculated,
-                           currencies=currencies)
+                           calculated=calculated)

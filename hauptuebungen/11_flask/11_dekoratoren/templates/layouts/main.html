@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>start.html</title>
+        <link rel="stylesheet" href="/static/lib/skeleton/skeleton.css" />
+        <link rel="stylesheet" href="/static/lib/skeleton/normalize.css" />
+        <link rel="stylesheet" href="/static/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Vacation-Site</h1>
+            <div>
+                <ul class="list-none">
+                    <li class="nav">
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="nav">
+                        <a href="/locations">Locations</a>
+                    </li>
+                    <li class="nav">
+                        <a href="/currency">Currency Calculator</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            {% block content%}{% endblock %}
+        </div>
+    </body>
+</html>

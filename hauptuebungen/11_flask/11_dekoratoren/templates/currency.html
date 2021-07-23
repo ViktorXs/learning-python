@@ -1,0 +1,61 @@
+{% extends "/layouts/main.html" %}
+{% block content %}
+
+    <h4>Currency Calculator</h4>
+    <div>
+        <p class="light">Possible Currencies: EUR, GBP, DM</p>
+        <form method="get">
+            <div class="row">
+                <div class="one-half column">
+                    <label for="curr1">Enter the first currency</label>
+                    <input type="text" name="curr1" id="curr1" value="{{ curr1 }}" />
+                </div>
+                <div class="one-half column">
+                    <label for="curr2">Enter the target currency</label>
+                    <input type="text" name="curr2" id="curr2" value="{{ curr2 }}" />
+                </div>
+            </div>
+            <label for="amount">Enter the amount</label>
+            <input type="number" step="any" min="0" name="amount" id="amount" value="{{ amount }}" />
+            <br><br>
+            <input type="submit" />
+        </form>
+        <hr>
+        <h4>Results</h4>
+        <div class="row">
+            <div class="five columns">
+                <table class="u-full-width">
+                    <thead>
+                        <tr>
+                            <th>Your amount in {{ curr1 }}</th>
+                            <th>calculated in {{ curr2 }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{{ amount }} {{ curr1 }}</td>
+                            <td>{{ calculated }} {{ curr2 }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="five columns">
+                <table class="u-full-width">
+                    <thead>
+                        <tr>
+                            <th>{{ curr2 }}</th>
+                            <th>{{ curr1 }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Curr2 values {{ curr2 }}</td>
+                            <td>Curr1 values {{ curr1 }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
