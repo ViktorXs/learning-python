@@ -1,4 +1,4 @@
-# Learning Python
+# Learning Python (PAUSED for undefined time. Please read the changelog below.
 Created this repo for learning the use of git and GitHub together with the german Udemy course "Python Bootcamp".
 
 I am using the Python Anaconda Package and for the beginning mostly the notebook feature.
@@ -10,6 +10,12 @@ There will be differencies and varying things in this project, like different na
 Finished things that may have wrong naming conventions etc. I will still keep them as they are and will not change for the sake of keeping track, how well I already progressed and learned python.
 
 # Changelog
+26.07.2021
+- Paused learning the python course, but will continue, when it's possible. Changes of plans lead me to begin learning with Nuxt.JS :)
+
+23.07.2021
+- Finished chapter "Flask"
+
 12.07.2021
 - Finished chapter "Diverses" with all its Sub-chapters
 
